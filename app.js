@@ -22,6 +22,6 @@ app.use(auth(config));
 
 app.use('/',indexRouter)
 
-app.listen(3000,()=>{
-    console.log('Express is running on port 3000')
+app.listen(3010,()=>{
+    console.log('Express is running on port 3010')
 })
